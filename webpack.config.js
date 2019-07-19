@@ -40,8 +40,6 @@ module.exports = (env, options) => {
                     loader: 'html-loader',
                     options: {
                         minimize: options.mode !== 'production',
-                        name: '[name].[ext]',
-                        publicPath: '/',
                     }
                 },
                 {
